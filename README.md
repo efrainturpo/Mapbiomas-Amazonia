@@ -1,8 +1,11 @@
 # Mapbiomas Amazonia
 Scripts para visualizar en QGIS con GEE plugin
+
 Colección 2.0 de mapas anuales de cobertura y uso del suelo del 1985 a 2018 de la Pan-Amazonía
 Pasos:
+
 1.- Instalar complemento GEE plugin (qgis-earthengine-plugin) en QGIS
+
 2.- Auntenticar cuenta GEE, 
     para autenticar basta activar el pluging GEE para que salga una ventana emergente para indiar la cuenta y generar codigo de activacion
     copiar y pegar, la activacion es  solo la primera vez 
