@@ -1,9 +1,7 @@
 #Script para mostras clasif col2 MapbiomasAmazonia
 #by:EYTC
 # Param
-years = [2000,2018]
-pais = 'PERU'
-code_region = '702'
+years = [2000,2018] #indicar Años a visualizar
 
 import ee
 from ee_plugin import Map
