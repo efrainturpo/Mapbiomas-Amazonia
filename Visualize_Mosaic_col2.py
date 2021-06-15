@@ -8,7 +8,7 @@ code_region = '702'
 import ee
 from ee_plugin import Map
 for num in years:
-    image = ee.ImageCollection("projects/mapbiomas-raisg/MOSAICOS/workspace-c2-v2")\
+    image = ee.ImageCollection("projects/mapbiomas-raisg/MOSAICOS/workspace-c3-v2")\
               .filterMetadata('year', 'equals', num)\
               .filterMetadata('region_code', 'equals', code_region)\
               .median()
